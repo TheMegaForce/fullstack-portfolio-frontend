@@ -1,5 +1,5 @@
 // BASE URL OF OUR DEPLOYED API
-const URL = "https://fullstack-portfolio-backend.onrender.com/"
+const URL = "https://fullstack-portfolio-backend.onrender.com"
 
 export const projectsLoader = async () => {
     const response = await fetch(URL + "/projects")

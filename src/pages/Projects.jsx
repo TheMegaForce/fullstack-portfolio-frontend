@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 function Projects(props) {
 
   const projects = useLoaderData()
+  console.log(projects);
 
     return projects.map((project) => (
       <div>
